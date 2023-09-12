@@ -1,0 +1,28 @@
+body {
+    background-color: #E0F2F1;
+}
+
+#calcularSumaBtn:hover{
+    background-color: #008cff;
+}
+
+#calcularRestaBtn:hover{
+    background-color: #2dda2d;
+}
+
+#calcularProductoBtn:hover{
+    background-color: #ffe600;
+}
+
+#calcularDivisiónBtn:hover{
+    background-color: #00ffea;
+}
+
+#resultado{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#resultado.mostrar{
+    opacity: 1;
+}

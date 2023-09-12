@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de suma</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/Estilo.css">
+</head>
+
+<body style="background-color:#dff2f1; display: flex; flex-direction: column; align-items: center; font-family: poppins;">
+
+    <div style="width: 500px; margin: 25vh;" >
+        <h1 style="text-align: center;">Calculadora de suma</h1>
+
+
+        <Form>
+            <div class="mb-3">
+                <label for="num1" class="form-label">Número 1: </label>
+                <input type="number" class="form-control" id="num1">
+            </div>
+            
+            <div class="mb-3">
+                <label for="num2" class="form-label">Número 2: </label>
+                <input type="number" class="form-control" id="num2">
+            </div>
+
+            <button  type="button" id="calcularSumaBtn" class="btn btn-primary" disabled>Calcular Suma</button>
+            <button  type="button" id="calcularRestaBtn" class="btn btn-success" disabled>Calcular Resta</button>
+            <button  type="button" id="calcularProductoBtn" class="btn btn-warning" disabled>Calcular Producto</button>
+            <button  type="button" id="calcularDivisiónBtn" class="btn btn-info" disabled>Calcular División</button>
+
+        </Form>
+
+        <br>
+        
+        <h3 id="h3Result" hidden>Resultado: </h3>
+
+        <div id="resultado" class="alert alert-danger" role="alert" hidden>
+            A Resultado
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/Main.js"></script>
+</body>
+
+</html>
